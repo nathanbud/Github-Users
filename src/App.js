@@ -9,15 +9,7 @@ class App extends Component {
       super();
 
       this.state = {
-        data:[{
-          id: 23,
-          pic: "https://placehold.it/150",
-          login: "dfdfdff"
-        },
-        {
-          id: 45,
-          login: "NAthanie"
-        },
+        data:[
 
         ]
       }

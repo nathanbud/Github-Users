@@ -30,7 +30,7 @@ state = {
         return(
             <div>
                 <form onSubmit={this.handleSubmit}>
-                <input type="text" onChange = {this.handleSearch} value = {this.state.search}  />
+                <input type="text" onChange = {this.handleSearch} value = {this.state.search} placeholder = "Search Username" />
                 <button>SEARCH</button>
                     </form>
             </div>
